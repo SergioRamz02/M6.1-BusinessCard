@@ -1,4 +1,4 @@
-function Tarjeta() {
+export default function Tarjeta() {
   // Definimos la información estática de la tarjeta
   const nombre = "Sergio Emmanuel";
   const profesion = "Estudiante de Doctorado";
@@ -13,6 +13,4 @@ function Tarjeta() {
       <p>{mensaje}</p>
     </div>
   );
-}
-
-export default Tarjeta;
+};
